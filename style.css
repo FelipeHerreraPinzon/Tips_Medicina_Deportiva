@@ -32,7 +32,10 @@ html {
   h1 {
     font-family:monospace;
   }
-  
+
+
+
+
   @keyframes slide {
     0% {
       transform:translateX(-25%);

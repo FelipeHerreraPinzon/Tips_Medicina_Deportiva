@@ -1,0 +1,164 @@
+<!doctype html>
+<!--[if lte IE 9]>
+<html lang="en" class="oldie">
+<![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sliding Diagonals Background Effect</title>
+  <link rel="stylesheet" media="all" href="style.css" />
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+
+   
+   
+
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+
+
+
+
+<nav class="navbar navbar-expand-lg p-2 ">
+    <div class="container-fluid p-0">
+     <img src="#" alt="" width="200">
+      <button class="navbar-toggler m-1 mt-0 mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav text-center">
+          <h5><b><a class="nav-link active" href="index.html"><i class="fa-solid fa-house"></i> Inicio</a></b></h5>
+          <h5><b><a class="nav-link text-dark btn btn-primary" href="tips-entrenamiento.html"><i class="fa-solid fa-dumbbell"></i> Tips de Entrenamiento</a></b></h5>
+          <h5><b><a class="nav-link text-dark btn btn-success" href="tips-alimentacion.html"><i class="fa-solid fa-apple-whole"></i> Tips de Alimentacion</a></b></h5>
+          <h5><b><a class="nav-link btn btn-light text-dark" href="expertos.html"><i class="fa-solid fa-user-doctor"></i> Consultar con Expertos</a></b></h5>
+        </div>
+      </div>
+    </div>
+</nav>
+
+
+      <div class="container mt-3 bg-white p-3 border shadow ">
+        <div class="row">
+          <div class="col-12">
+            <b>
+              <h1 class="text-dark mt-5">
+                Contactar a Médicos, Deportólogos y expertos en Medicina Deportiva
+              </h1>
+           </b>
+           
+                      <!-- Boton Experto 1 -->
+        <button type="button" class="btn btn-primary col-12 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#modal-1">
+            <i class="fa-solid fa-user-doctor"></i> Médico Deportólogo
+        </button>
+
+                              <!-- Boton Experto 2 -->
+        <button type="button" class="btn btn-primary col-12 fs-5 mt-4" data-bs-toggle="modal" data-bs-target="#modal-2">
+          <i class="fa-solid fa-user-nurse"></i> Fisioterapeuta
+        </button>
+
+                                      <!-- Boton Experto 3 -->
+        <button type="button" class="btn btn-primary col-12 fs-5 mt-4" data-bs-toggle="modal" data-bs-target="#modal-3">
+          <i class="fa-solid fa-user-tie"></i> Médico General
+        </button>
+
+            
+        
+          <!-- Modal Consejo 1-->
+          <div class="modal fade" id="modal-1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog modal-dialog-centered-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-2" id="staticBackdropLabel"> <i class="fa-solid fa-user-doctor"></i> Médico Deportólogo</h1>
+                  <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/deportologo.jpg" alt="" width="50%" class="img-fluid mx-auto d-block">
+                    <p class="fs-3 text-center">Juan Carlos González Pérez</p>
+                    <p class="fs-3 text-center">Universidad de La Sabana</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal"><i class="fa-brands fa-whatsapp"></i> Contactar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <!-- Modal Consejo 1-->
+          <div class="modal fade" id="modal-2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog modal-dialog-centered-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-2" id="staticBackdropLabel"> <i class="fa-solid fa-user-nurse"></i> Fisioterapeuta:</h1>
+                  <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="assets/fisioterapeuta.jpeg" alt="" width="50%" class="img-fluid mx-auto d-block">
+                  <p class="fs-3 text-center">Juan Felipe Montes Quiroga</p>
+                  <p class="fs-3 text-center">Universidad de La Sabana</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal"><i class="fa-brands fa-whatsapp"></i> Contactar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <!-- Modal Consejo 1-->
+          <div class="modal fade" id="modal-3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog modal-dialog-centered-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-2" id="staticBackdropLabel"><i class="fa-solid fa-user-tie"></i> Médico General</h1>
+                  <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="assets/doctor_1.png" alt="" width="50%" class="img-fluid mx-auto d-block">
+                  <p class="fs-3 text-center">Alejandro Martínez García</p>
+                  <p class="fs-3 text-center">Universidad de La Sabana</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal"><i class="fa-brands fa-whatsapp"></i> Contactar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    
+
+     <br>
+     <br>
+
+     
+  
+
+
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+</script>
+</html>
+
+

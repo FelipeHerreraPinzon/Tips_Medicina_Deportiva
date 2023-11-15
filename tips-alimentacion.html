@@ -1,0 +1,329 @@
+<!doctype html>
+<!--[if lte IE 9]>
+<html lang="en" class="oldie">
+<![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sliding Diagonals Background Effect</title>
+  <link rel="stylesheet" media="all" href="style.css" />
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+
+   
+   
+
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+
+
+
+
+<nav class="navbar navbar-expand-lg p-2 ">
+  <div class="container-fluid p-0">
+   <img src="#" alt="" width="200">
+    <button class="navbar-toggler m-1 mt-0 mb-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav text-center">
+        <h5><b><a class="nav-link active" href="index.html"><i class="fa-solid fa-house"></i> Inicio</a></b></h5>
+        <h5><b><a class="nav-link text-dark btn btn-primary" href="tips-entrenamiento.html"><i class="fa-solid fa-dumbbell"></i> Tips de Entrenamiento</a></b></h5>
+        <h5><b><a class="nav-link text-dark btn btn-success" href="tips-alimentacion.html"><i class="fa-solid fa-apple-whole"></i> Tips de Alimentacion</a></b></h5>
+        <h5><b><a class="nav-link btn btn-light text-dark" href="expertos.html"><i class="fa-solid fa-user-doctor"></i> Consultar con Expertos</a></b></h5>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+      <div class="container mt-3 bg-white p-3 border shadow">
+        <div class="row">
+          <div class="col-12">
+
+
+            
+                  
+                <!-- Boton Consejo 1 -->
+        <button type="button" class="btn btn-success col-12 fs-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <i class="fa-solid fa-circle-info"></i> Dieta Balanceada
+        </button>
+          
+        <!-- Boton Consejo 2 -->
+         <button type="button" class="btn btn-success col-12 mt-2 fs-5 fs-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <i class="fa-solid fa-circle-info"></i> Control de Porciones:
+         </button>
+
+         <!-- Boton Consejo 3 -->
+         <button type="button" class="btn btn-success col-12 mt-2 fs-5 fs-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <i class="fa-solid fa-circle-info"></i> Comer Conscientemente
+        </button>
+
+        <!-- Boton Consejo 4 -->
+        <button type="button" class="btn btn-success col-12 mt-2 fs-5 fs-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <i class="fa-solid fa-circle-info"></i> Proteínas para la Recuperación
+        </button>
+
+        <!-- Boton Consejo 5 -->
+        <button type="button" class="btn btn-success col-12 mt-2 fs-5 fs-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <i class="fa-solid fa-circle-info"></i> Carbohidratos Complejos
+        </button>
+
+        <!-- Boton Consejo 6 -->
+        <button type="button" class="btn btn-success col-12 mt-2 fs-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <i class="fa-solid fa-circle-info"></i> Grasas Saludables
+        </button>
+
+        <!-- Boton Consejo 7 -->
+        <button type="button" class="btn btn-success col-12 mt-2 fs-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <i class="fa-solid fa-circle-info"></i> Evita Azúcares y Alimentos Procesados
+        </button>
+
+        <!-- Boton Consejo 8 -->
+        <button type="button" class="btn btn-success col-12 mt-2 fs-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <i class="fa-solid fa-circle-info"></i> Planificación de Comidas
+        </button>
+
+        <!-- Boton Consejo 9 -->
+        <button type="button" class="btn btn-success col-12 mt-2 fs-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <i class="fa-solid fa-circle-info"></i> Hidratación Adecuada
+        </button>
+
+        <!-- Boton Consejo 10 -->
+        <button type="button" class="btn btn-success col-12 mt-2 fs-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <i class="fa-solid fa-circle-info"></i> Consulta con un Profesional
+        </button>
+                  
+
+
+
+
+          <!-- Modal Consejo 1-->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog modal-dialog-centered-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-2" id="staticBackdropLabel"><i class="fa-solid fa-circle-info"></i> Dieta Balanceada:</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   <p class="fs-3">Consume una dieta equilibrada que incluya una variedad de alimentos, como frutas, verduras, proteínas magras, granos enteros y grasas saludables.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal">Entendido</button>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+
+          <!-- Modal Consejo 2-->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-2" id="staticBackdropLabel"><i class="fa-solid fa-circle-info"></i> Control de Porciones:</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   <p class="fs-3">Presta atención a las porciones para evitar el exceso de consumo de calorías.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal">Entendido</button>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+
+                  <!-- Modal Consejo 3-->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-2" id="staticBackdropLabel"><i class="fa-solid fa-circle-info"></i> Comer Conscientemente:</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   <p class="fs-3">Come conscientemente, prestando atención a las señales de hambre y saciedad.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal">Entendido</button>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+          
+                    <!-- Modal Consejo 4-->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-2" id="staticBackdropLabel"><i class="fa-solid fa-circle-info"></i> Proteínas para la Recuperación:</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   <p class="fs-3">Incluye proteínas magras en tu dieta para ayudar en la reparación muscular después del ejercicio.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal">Entendido</button>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+
+                    <!-- Modal Consejo 4-->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-2" id="staticBackdropLabel"><i class="fa-solid fa-circle-info"></i> Carbohidratos Complejos:</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   <p class="fs-3">Opta por carbohidratos complejos que proporcionen energía sostenida, como granos enteros, legumbres y verduras.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal">Entendido</button>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+                    <!-- Modal Consejo 6 -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-2" id="staticBackdropLabel"><i class="fa-solid fa-circle-info"></i> Grasas Saludables:</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   <p class="fs-3">Incorpora grasas saludables, como aguacates, nueces y aceite de oliva, en moderación.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal">Entendido</button>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+
+
+                    <!-- Modal Consejo 7 -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-2" id="staticBackdropLabel"><i class="fa-solid fa-circle-info"></i> Evita Azúcares y Alimentos Procesados:</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   <p class="fs-3">Limita el consumo de azúcares agregados y alimentos procesados.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal">Entendido</button>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+
+
+                    <!-- Modal Consejo 8 -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-2" id="staticBackdropLabel"><i class="fa-solid fa-circle-info"></i> Planificación de Comidas:</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   <p class="fs-3">Planifica tus comidas y bocadillos con anticipación para tomar decisiones más saludables.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal">Entendido</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+                    <!-- Modal Consejo 9 -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-2" id="staticBackdropLabel"><i class="fa-solid fa-circle-info"></i> Hidratación Adecuada:</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   <p class="fs-3">Bebe suficiente agua a lo largo del día para mantener la hidratación.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal">Entendido</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+                    <!-- Modal Consejo 10 -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-2" id="staticBackdropLabel"><i class="fa-solid fa-circle-info"></i> Consulta con un Profesional:</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   <p class="fs-3">Si tienes necesidades dietéticas específicas o estás comenzando un programa de ejercicios intensivos, considera consultar a un nutricionista o entrenador personal.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal">Entendido</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+    
+<br>
+<br>
+
+
+
+
+            
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+</script>
+</html>
+
+
